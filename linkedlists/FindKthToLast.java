@@ -1,5 +1,9 @@
 package linkedlists;
 
+/*
+ * Implement an algorithm to find the nth to last element of a singly linked list.
+ */
+
 public class FindKthToLast
 {
 	public static void main(String[] args)
@@ -10,7 +14,7 @@ public class FindKthToLast
 		{
 			list.add(i);
 		}
-		
+
 		System.out.println(list);
 
 		Node<Integer> n = findKthToLast(list, 8);
